@@ -17,5 +17,9 @@ https://www.sfml-dev.org/download/sfml/2.6.1/
 
 ![image](https://github.com/molo4kaPlus/graphics/assets/118752497/66b826f4-8f48-4705-a669-8f19523e0bd0)
 
+Не забываем сконфигурировать свой Cmake, шоб он все правильно потом собрал:
+
+![image](https://github.com/molo4kaPlus/graphics/assets/118752497/8f2fa0ef-c0ed-4214-824a-375de490128c)
+
 Ну и все, собираем проект и смотрим на результат после запуска.
 
