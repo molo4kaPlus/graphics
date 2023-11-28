@@ -9,6 +9,7 @@
 ![image](https://github.com/molo4kaPlus/graphics/assets/118752497/8f4f97d6-181f-4ee9-93cc-9f646b6ea2f8)
 
 Чтоб вся эта тема заработала, тебе нужно скачать библиотеку SFML (GCC 13.1.0 MinGW для компилятора GCC):
+https://www.sfml-dev.org/download/sfml/2.6.1/
 
 <img width="788" alt="image" src="https://github.com/molo4kaPlus/graphics/assets/118752497/3e5e1ee9-928e-4fac-b52a-80355f15b429">
 
