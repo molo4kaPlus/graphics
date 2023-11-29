@@ -22,6 +22,6 @@ set(SFML_DIR "${CMAKE_SOURCE_DIR}/include/SFML/lib/cmake/SFML")
 target_link_libraries(graphics sfml-graphics)
 
 set(CMAKE_MODULE_PATH ${CMAKE_CURRENT_LIST_DIR}/cmake_modules)
-find_package(SFML 2.6.1 REQUIRED graphics network audio window system)
+find_package(SFML 2.6.1 REQUIRED graphics network audio window system)  
 
 copy_directory(${CMAKE_SOURCE_DIR}/fonts ${CMAKE_CURRENT_LIST_DIR}/build/fonts)
