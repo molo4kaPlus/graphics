@@ -1,11 +1,25 @@
 #include <SFML/Graphics.hpp>
+#include <iostream>
 
 int main()
 {
-    sf::RenderWindow window(sf::VideoMode(720, 480), "SFML works!");
+    sf::RenderWindow window(sf::VideoMode(720, 480), "huge cocks");
     sf::CircleShape shape(100.f);
     shape.setFillColor(sf::Color::Green);
 
+    sf::Text text;
+    sf::Font font;
+    if (!font.loadFromFile("fonts/arial.ttf"))
+    {
+        std::cout << "Failed to load font" << std::endl;
+        return EXIT_FAILURE;
+    }
+    text.setString("fucking slave!");
+    text.setFont(font);
+    text.setCharacterSize(100);
+    text.setFillColor(sf::Color::White);
+    text.setStyle(sf::Text::Bold | sf::Text::Underlined);
+    
     while (window.isOpen())
     {
         sf::Event event;
@@ -16,7 +30,7 @@ int main()
         }
 
         window.clear();
-        window.draw(shape);
+        window.draw(text);
         window.display();
     }
 
