@@ -3,7 +3,6 @@
 
 int main()
 {
-    std::cout <<"чё угодно\n";
     sf::RenderWindow window(sf::VideoMode(720, 480), "huge cocks");
     sf::CircleShape shape(100.f);
     shape.setFillColor(sf::Color::Green);
