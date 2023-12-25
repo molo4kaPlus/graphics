@@ -3,8 +3,12 @@
 int main()
 {
     sf::RenderWindow window(sf::VideoMode(1920, 1080), "huge cocks");
+    sf::Image icon;
+    icon.loadFromFile("res/icons/fx.jpg"); 
+    window.setIcon(icon.getSize().x, icon.getSize().y, icon.getPixelsPtr());
     UI::Test test;
     test.CheckLibrary();
+
 
     while (window.isOpen())
     {

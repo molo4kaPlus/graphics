@@ -24,7 +24,7 @@ target_link_libraries(graphics sfml-graphics)
 set(CMAKE_MODULE_PATH ${CMAKE_CURRENT_LIST_DIR}/cmake_modules)
 find_package(SFML 2.6.1 REQUIRED graphics network audio window system)  
 
-copy_directory(${CMAKE_SOURCE_DIR}/fonts ${CMAKE_CURRENT_LIST_DIR}/build/fonts)
+copy_directory(${CMAKE_SOURCE_DIR}/res ${CMAKE_CURRENT_LIST_DIR}/build/res)
 
 ADD_LIBRARY(MyLibs
     "${CMAKE_SOURCE_DIR}/lib/UI.cpp"

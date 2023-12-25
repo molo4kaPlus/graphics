@@ -13,7 +13,7 @@ namespace UI
         sf::RectangleShape rectangle(sf::Vector2f(1920.f, 100.f));
         sf::Text header_text;
         sf::Font header_font;
-        if (!header_font.loadFromFile("fonts/arial.ttf"))
+        if (!header_font.loadFromFile("res/fonts/arial.ttf"))
         {
             std::cout << "Failed to load font" << std::endl;
             return;
